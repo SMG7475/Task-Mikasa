@@ -1,0 +1,285 @@
+.main-container{
+    font-family: Sans-serif;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+
+}
+.header{
+    width: 76%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.header-links{
+    text-decoration: none;
+    color: #ACABAB;
+    margin: 10px;
+    font-size: 14px;
+}
+.header-texts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-hr{
+    height: 14px;
+    align-self: center;
+    border-left: 1px solid #E6E6E6;
+    border-bottom: transparent;
+    border-top: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sections{
+    background-color:#D9D7D8 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.checkout-span{
+    color: #4f4e5c;
+}
+.sections-part{
+    width: 80%;
+}
+.section-two-hr{
+    color: #dfdfdf;
+    margin: 2px;
+}
+.section-two-a{
+    color:#393738;
+    text-decoration: none;
+    align-self: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.section-two-a::after{
+  content: "";
+  margin-left: 30px;
+  border: white;
+  border-right: transparent;
+  border-top: transparent;
+  border-bottom: transparent;
+  height: 100%;
+  border-width: 1px;
+  border-style: solid;
+  margin-left: 41px;
+  margin-right: 41px;
+
+}
+.search-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.go-button{
+    margin-left: 10px;
+    border-radius: 5px;
+    border-color: #afafaf;
+}
+.main-body{
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+    width: 76%;
+    height: 58vh;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.main-body-a{
+    color:#A2A0A1;
+    margin-bottom: 20px;
+}
+.main-body-hr{
+    color: #535250;
+    border-top: 1px;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-style: solid;
+    box-shadow: 10px #dfdfdf;
+}
+.main-image{
+    height: 100%;
+    margin-right: 10px;
+    width: 90%;
+}
+.dress-your-table{
+    background-color: #363533;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #535250;
+    padding: 20px;
+    outline-color: #363533;
+    outline-width: 20px;
+    outline-style: solid;
+    margin:20px;
+    width: 27%;
+    color: white;
+}
+.dress-your-table-h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #e3e1e2;
+    margin-left: 10px;
+}
+.list-item{
+    font-size: 18px;
+    font-weight: 100;
+    margin: 10px;
+    color: #DBD9DA;
+}
+.third-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 76%;
+    align-self: center;
+
+}
+.third-section-links{
+    text-decoration: none;
+    color: #566D78;
+}
+.bridal-image-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.third-section-part-one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+.dot {
+    height: 5px;
+    width: 5px;
+    border-color: #cccccc;
+    align-self: center;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+.section-five{
+    width: 76%;
+    height: 23vh;
+    border-width: 10px;
+    border-style: solid;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+
+}
+.section-five-hr{
+    border-left:1px;
+    height:200px;
+    border-style: solid;
+    border-color: #dfdfdf;
+    align-self: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.section-five-p{
+    color: #adadad;
+}
+.background{
+    background-image: linear-gradient(to bottom, white, #2F2E2C);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-five-h2{
+    font-size: 20px;
+    color: #555555;
+    font-weight: 300;
+}
+.section-five-card1{
+    background-image: url("./mikasa/promo_glass.png");
+    background-size: cover;
+    height: 200px;
+    padding: 30px;
+    width: 33%;
+    background-repeat: no-repeat;
+    background-size:80% 50%;
+  background-position: 0% 70%;
+    display: flex;
+    flex-direction: column;
+}
+.section-five-card2{
+    background-image: url("./mikasa/promo_plates.png");
+    background-repeat: no-repeat;
+  background-size:80% 50%;
+  background-position: 50% 70%;
+    height: 100%;
+    padding: 20px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.section-five-card3{
+    background-image: url("./mikasa/promo_album.png");
+    background-size: 50% 70%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100%;
+    padding: 20px;
+    width: 33%;
+}
+
+.section-five-a{
+    color: #636986;
+    text-decoration: none;
+    align-self: flex-end;
+    
+}
+.vertical-line{
+    height: 180px;
+    width: 1px;
+}
+.section-six-as{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.section-six-a{
+    color: #ACABAB;
+    margin: 10px;
+}
+.section-six{
+    display: flex;
+    flex-direction: column;
+    color: #ACABAB;
+    font-size: 12px;
+    align-self: center;
+}
+.section-seven{
+    display: flex;
+    flex-direction: column;
+    color: #ACABAB;
+    font-size: 12px;
+}
+.sign-up-button{
+    border-radius: 5px;
+}
+.section-combainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 76%;
+    align-self: center;
+    margin-bottom: 60px;
+}
