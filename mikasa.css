@@ -50,7 +50,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 77%;
+    width: 76%;
 }
 .cart-icon{
     margin-left: 10px;width: 14px;
@@ -60,6 +60,14 @@
 }
 .sections-part{
     width: 80%;
+}
+.section-three-hr{
+    color: #494646;
+    border-width: 2px;
+    margin: 2px;
+    border-top:transparent;
+    border-right: transparent;
+    border-left: transparent;
 }
 .section-two-hr{
     color: #494646;
@@ -84,26 +92,20 @@
     font-size: 14px;
 }
 .bridal-image{
-    width: 50px;
+    width: 80px;
+    height: 50px;
 }
-.search-container{
-    margin-left: 30px;
-}
-.section-two-a::after{
-  content: "";
-  margin-left: 30px;
-  border: white;
-  border-right: transparent;
-  border-top: transparent;
-  border-bottom: transparent;
-  height: 100%;
-  background-color: transparent;
-  border-width: 1px;
-  border-style: solid;
-  margin-left: 40px;
-  margin-right: 40px;
+.section-two-hr-v{
+    height: 20px;
+    align-self: center;
+    border-left: 1px solid #E6E6E6;
+    border-bottom: transparent;
+    border-top: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
 
 }
+
 .search-container{
     display: flex;
     flex-direction: row;
@@ -119,7 +121,7 @@
     border-style: solid;
     border-color: white;
     width: 76%;
-    height: 58vh;
+    height: 500px;
     align-self: center;
     display: flex;
     flex-direction: row;
@@ -128,12 +130,15 @@
 
 .main-body-a{
     color:#A2A0A1;
+    margin-left: 10px;
     margin-top: 20px;
     font-size: 14px;
 }
 .unlist{
+    list-style: none;
     padding: 0;
     margin: 0;
+    margin-bottom: 30px;
 }
 .main-body-hr{
     display: block;
@@ -147,24 +152,29 @@
 .main-image{
     height: 100%;
     margin-right: 10px;
-    width: 75%;
+    width: 80%;
 }
 .dress-your-table-outline{
     background-color:#363533 ;
     padding: 15px;
+    height: 470px;
 }
 .dress-your-table{
-    background-color: #363533;
+    background-image: radial-gradient(#434142,#363533);
     border-width: 1px;
     border-style: solid;
     border-color: #535250;
-    padding: 20px;
+    padding: 15px;
+    height: 440px;
     color: white;
 }
 .unlist{
     list-style: none;
     display: flex;
     flex-direction: column;
+}
+.unlist:last-child{
+    margin-bottom: 20px;
 }
 .dress-your-table-p{
     color:#A2A0A1;margin-left: 10px;font-size: 14px;
@@ -178,7 +188,7 @@
 .list-item{
     font-size: 16px;
     font-weight: 100;
-    margin: 10px;
+    margin-left: 10px;
     color: #DBD9DA;
 }
 .third-section{
@@ -186,25 +196,27 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 77%;
+    width: 76%;
     align-self: center;
 
 }
 .third-section-links{
     text-decoration: none;
     color: #566D78;
-    font-size: 18px;
+    font-size: 16px;
 }
 .bridal-image-card{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-right:55px ;
 }
 .third-section-part-one{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 10px;
+    margin: 15px;
+    margin-left: 0;
 }
 .dot {
     height: 5px;
@@ -213,14 +225,14 @@
     align-self: center;
     border-width: 1px;
     border-style: solid;
-    border-radius: 50%;
+    border-radius: 100%;
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
   }
 .section-five{
     width: 76%;
-    height: 23vh;
+    height: 230px;
     border-width: 10px;
     border-style: solid;
     align-self: center;
@@ -243,6 +255,7 @@
 .section-five-p{
     color: #adadad;
     font-size: 14px;
+    margin-top: 5px;
 }
 .background{
     background-image: linear-gradient(to bottom, white, #2F2E2C);
@@ -255,7 +268,7 @@
     font-size: 20px;
     color: #555555;
     font-weight: 300;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 .section-five-card1{
     background-image: url("./mikasa/promo_glass.png");
@@ -301,17 +314,24 @@
     height: 180px;
     width: 1px;
 }
-.section-six-as > a{
-  
-}
 .section-six-as{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+.section-six-header{
+    height: 16px;
+    align-self: center;
+    border-left: 1px solid #ACABAB;
+    border-right: transparent;
+    border-bottom: transparent;
+    border-top: transparent;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .section-six-a{
     color: #ACABAB;
-    margin: 10px;
     font-size: 14px;
     margin-bottom: 0;
 }
@@ -361,7 +381,7 @@ width: 250px;
     .main-body{
         flex-direction: column;
         width: 70%;
-        height: 700px;
+        height: 600px;
     }
     .main-image{
         height: 35%;
@@ -395,8 +415,14 @@ width: 250px;
     .dress-your-table-h2{
         font-size: 24px;
     }
+    .dress-your-table{
+        height: 330px;
+    }
     .dress-your-table-p{
         font-size: 14px;
+    }
+    .dress-your-table-outline{
+        height: 360px;
     }
     .main-body-hr{
         display: block;
@@ -407,6 +433,8 @@ width: 250px;
     }
     .list-item{
         display: inline;
+        margin-top: 4px;
+        margin-bottom: 4px;
     }
     .section-combainer{
         flex-direction: column;
@@ -427,5 +455,47 @@ width: 250px;
         flex-direction: row;
         justify-content: center;
     }
+    .sections{
+    height:80px;
+    }
+    .sections-in{
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 10px;
+        justify-content: center;
+        align-items: space-between;
+        width: 79%;
+    }
+    .header-links{
+        align-self: center;
+    }
+    .header-texts{
+        align-self: center;
+        margin-top: 10px;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .section-two-a{
+        margin: 0;
+        min-width: 100px;
+        text-decoration: underline;
+    }
+    .section-two-hr-v{
+        display: none;
+    }
+      .search-container{
+        align-self: center;
+        justify-content: space-between;
+      }
+      .section-two-input{
+        width: 120px;
+      }
+      .third-section{
+        display: none;
+      }
+      .section-three-hr{
+        display: none;
+      }
     
 }
