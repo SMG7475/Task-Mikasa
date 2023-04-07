@@ -152,12 +152,13 @@
 .main-image{
     height: 100%;
     margin-right: 10px;
-    width: 80%;
+    width: 77%;
 }
 .dress-your-table-outline{
     background-color:#363533 ;
     padding: 15px;
     height: 470px;
+    width: 23%;
 }
 .dress-your-table{
     background-image: radial-gradient(#434142,#363533);
@@ -423,6 +424,7 @@ width: 250px;
     }
     .dress-your-table-outline{
         height: 360px;
+        width: auto;
     }
     .main-body-hr{
         display: block;
