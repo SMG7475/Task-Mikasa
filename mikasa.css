@@ -6,13 +6,17 @@
 
 }
 .header{
-    width: 76%;
+    width: 77%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-self: center;
     align-items: center;
     margin-top: 20px;
+}
+.logo{
+    width:200px;
+    height: 70px;
 }
 .header-links{
     text-decoration: none;
@@ -26,7 +30,7 @@
     align-items: center;
 }
 .header-hr{
-    height: 14px;
+    height: 20px;
     align-self: center;
     border-left: 1px solid #E6E6E6;
     border-bottom: transparent;
@@ -36,9 +40,20 @@
 }
 .sections{
     background-color:#D9D7D8 ;
+    height: 30px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+.sections-in{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 77%;
+}
+.cart-icon{
+    margin-left: 10px;width: 14px;
 }
 .checkout-span{
     color: #4f4e5c;
@@ -47,15 +62,32 @@
     width: 80%;
 }
 .section-two-hr{
-    color: #dfdfdf;
+    color: #494646;
+    border-width: 2px;
     margin: 2px;
+    border-top:transparent;
+    border-right: transparent;
+    border-left: transparent;
+}
+.section-two-input{
+    font-size: 14px;
 }
 .section-two-a{
     color:#393738;
     text-decoration: none;
     align-self: center;
+    font-size: 14px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+.go-button{
+    font-size: 14px;
+}
+.bridal-image{
+    width: 50px;
+}
+.search-container{
+    margin-left: 30px;
 }
 .section-two-a::after{
   content: "";
@@ -65,10 +97,11 @@
   border-top: transparent;
   border-bottom: transparent;
   height: 100%;
+  background-color: transparent;
   border-width: 1px;
   border-style: solid;
-  margin-left: 41px;
-  margin-right: 41px;
+  margin-left: 40px;
+  margin-right: 40px;
 
 }
 .search-container{
@@ -92,23 +125,33 @@
     flex-direction: row;
     background-color: white;
 }
+
 .main-body-a{
     color:#A2A0A1;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.unlist{
+    padding: 0;
+    margin: 0;
 }
 .main-body-hr{
+    display: block;
     color: #535250;
     border-top: 1px;
     border-bottom: transparent;
     border-left: transparent;
     border-right: transparent;
     border-style: solid;
-    box-shadow: 10px #dfdfdf;
 }
 .main-image{
     height: 100%;
     margin-right: 10px;
-    width: 90%;
+    width: 75%;
+}
+.dress-your-table-outline{
+    background-color:#363533 ;
+    padding: 15px;
 }
 .dress-your-table{
     background-color: #363533;
@@ -116,12 +159,15 @@
     border-style: solid;
     border-color: #535250;
     padding: 20px;
-    outline-color: #363533;
-    outline-width: 20px;
-    outline-style: solid;
-    margin:20px;
-    width: 27%;
     color: white;
+}
+.unlist{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.dress-your-table-p{
+    color:#A2A0A1;margin-left: 10px;font-size: 14px;
 }
 .dress-your-table-h2{
     font-size: 30px;
@@ -130,7 +176,7 @@
     margin-left: 10px;
 }
 .list-item{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 100;
     margin: 10px;
     color: #DBD9DA;
@@ -140,13 +186,14 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 76%;
+    width: 77%;
     align-self: center;
 
 }
 .third-section-links{
     text-decoration: none;
     color: #566D78;
+    font-size: 18px;
 }
 .bridal-image-card{
     display: flex;
@@ -185,7 +232,7 @@
 }
 .section-five-hr{
     border-left:1px;
-    height:200px;
+    height:80%;
     border-style: solid;
     border-color: #dfdfdf;
     align-self: center;
@@ -195,9 +242,11 @@
 }
 .section-five-p{
     color: #adadad;
+    font-size: 14px;
 }
 .background{
     background-image: linear-gradient(to bottom, white, #2F2E2C);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -206,12 +255,13 @@
     font-size: 20px;
     color: #555555;
     font-weight: 300;
+    margin-bottom: 5px;
 }
 .section-five-card1{
     background-image: url("./mikasa/promo_glass.png");
     background-size: cover;
-    height: 200px;
-    padding: 30px;
+    height: 100%;
+    padding: 20px;
     width: 33%;
     background-repeat: no-repeat;
     background-size:80% 50%;
@@ -244,11 +294,15 @@
     color: #636986;
     text-decoration: none;
     align-self: flex-end;
+    font-size: 14px;
     
 }
 .vertical-line{
     height: 180px;
     width: 1px;
+}
+.section-six-as > a{
+  
 }
 .section-six-as{
     display: flex;
@@ -258,6 +312,12 @@
 .section-six-a{
     color: #ACABAB;
     margin: 10px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.section-six-p{
+    font-size: 14px;
+    margin-bottom: 0;
 }
 .section-six{
     display: flex;
@@ -265,6 +325,7 @@
     color: #ACABAB;
     font-size: 12px;
     align-self: center;
+    margin: 0;
 }
 .section-seven{
     display: flex;
@@ -272,14 +333,99 @@
     color: #ACABAB;
     font-size: 12px;
 }
+.section-seven-p{
+    font-size: 14px;
+}
 .sign-up-button{
     border-radius: 5px;
+    margin-left: 5px;
+    padding: 3px;
 }
 .section-combainer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 76%;
+    width: 77%;
     align-self: center;
     margin-bottom: 60px;
+}
+.section-seven-email-input{
+padding: 3px;
+width: 250px;
+    font-size: 14px;
+}
+.sign-up-button{
+    font-size: 12px;
+}
+@media (max-width:1000px){
+    .main-body{
+        flex-direction: column;
+        width: 70%;
+        height: 700px;
+    }
+    .main-image{
+        height: 35%;
+        margin-right: 10px;
+        width: 100%;
+    }
+    .section-five{
+        flex-direction: column;
+        height: auto;
+        width: 70%;
+    }
+    .section-five-hr{
+        width: 80%;
+        height: 1px;
+        background-color: #dfdfdf;
+        margin: 0;
+    }
+    .section-five-card1{
+        width: 90%;
+        height: 200px;
+        margin: 0;
+    }
+    .section-five-card2{
+        width: 90%;
+        height: 200px;
+    }
+    .section-five-card3{
+        width: 90%;
+        height: 200px;
+    }
+    .dress-your-table-h2{
+        font-size: 24px;
+    }
+    .dress-your-table-p{
+        font-size: 14px;
+    }
+    .main-body-hr{
+        display: block;
+        margin: 0;
+    }
+    .unlist{
+        flex-direction: column;
+    }
+    .list-item{
+        display: inline;
+    }
+    .section-combainer{
+        flex-direction: column;
+    }
+    .section-six{
+        order: 2;
+        text-align: center;
+    }
+    .section-six-p{
+        margin: 3px;
+    }
+    .section-seven{
+        text-align: center;
+    }
+    .section-six-as{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
 }
