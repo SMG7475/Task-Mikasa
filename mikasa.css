@@ -63,19 +63,19 @@ body{
     margin: 8px;
     font-size: 14px;
 }
-.sections-outline{
+.sub-navbar-outline{
     padding: 2px 0 2px 0;
     border-bottom: 1px solid #dfdfdf;
     border-top: 1px solid #dfdfdf;
 }
-.sections{
+.sub-navbar{
     background-color:#d9d7d8 ;
     height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.sections-in{
+.sub-navbar-in{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,7 +84,7 @@ body{
     margin: 0;
     padding: 0;
 }
-.sections-in > li:not(:last-child){
+.sub-navbar-in > li:not(:last-child){
     align-self: center;
     border-right: 1px solid #e6e4e5;
     height: 30px;
@@ -95,7 +95,7 @@ body{
     display: flex;
     align-items: center;
 }
-.sections-in > li >a{
+.sub-navbar-in > li >a{
     color:#393738;
     align-self: center;
     text-decoration: none;
@@ -104,7 +104,7 @@ body{
     padding-right: 48px;
 }
 
-.sections-in > li:last-child:after {
+.sub-navbar-in > li:last-child:after {
     content: none;
 }
 .cart-icon-anchor-container{
@@ -122,17 +122,17 @@ body{
 .sections-part{
     width: 80%;
 }
-.section-two-input{
+.sub-navbar-input{
     font-size: 14px;
 }
-.go-button{
+.sub-navbar-go-button{
     font-size: 14px;
 }
 .bridal-image{
     width: 80px;
     height: 50px;
 }
-.search-container{
+.sub-navbar-search-container{
     display: flex;
     align-items: center;
     margin-left: 32px;
